@@ -19,6 +19,9 @@ Developed as part of an MSc Cybersecurity Practicum, this tool integrates multip
 
 🖥️ Unified CLI interface
 
+
+
+
 🧱 System Architecture
                 ┌──────────────────────────────┐
                 │  Unified CLI Tool            │
@@ -31,6 +34,15 @@ Developed as part of an MSc Cybersecurity Practicum, this tool integrates multip
 │ CORS Scanner │     │ S3 Scanner   │        │ OAuth Scanner│
 │ (cors.py)    │     │ (dsb.py)     │        │ (oauth...)   │
 └──────────────┘     └──────────────┘        └──────────────┘
+
+
+
+
+
+
+
+
+
 📁 Project Structure
 .
 ├── cors.py                  # CORS misconfiguration scanner
