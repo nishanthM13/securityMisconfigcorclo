@@ -22,20 +22,6 @@ Developed as part of an MSc Cybersecurity Practicum, this tool integrates multip
 
 
 
-🧱 System Architecture
-                ┌──────────────────────────────┐
-                │  Unified CLI Tool            │
-                │  (web_suite_fin.py)          │
-                └────────────┬─────────────────┘
-                             │
-     ┌───────────────────────┼────────────────────────┐
-     │                       │                        │
-┌──────────────┐     ┌──────────────┐        ┌──────────────┐
-│ CORS Scanner │     │ S3 Scanner   │        │ OAuth Scanner│
-│ (cors.py)    │     │ (dsb.py)     │        │ (oauth...)   │
-└──────────────┘     └──────────────┘        └──────────────┘
-
-
 
 
 
